@@ -41,6 +41,7 @@
   position: absolute;
   bottom: 30px;
   left: 64px;
+  z-index: 5;
 }
 .header__link {
   font-size: 18px;
@@ -116,6 +117,8 @@
   width: 60%;
   text-align: center;
   margin: auto;
+  position: relative;
+  z-index: 5;
 }
 .section-subtitle {
   font-size: 24px;
@@ -125,6 +128,8 @@
   text-align: center;
   margin: auto;
   margin-top: 20px;
+  position: relative;
+  z-index: 5;
 }
 .table {
   display: flex;
@@ -222,6 +227,7 @@
   width: 200px;
   margin-top: 80px;
   z-index: 5;
+  position: relative;
 }
 .table__heading_theme_dark {
 
@@ -230,14 +236,14 @@
 
 }
 .footer {
-  overflow: hidden;
   background-color: #1f1f1f;
 }
 .footer__columns {
   width: 90%;
   display: flex;
   justify-content: space-between;
-  margin: 60px auto 40px;
+  padding: 60px 0 40px;
+  margin: auto;
 }
 .footer__column {
   min-height: 250px;
